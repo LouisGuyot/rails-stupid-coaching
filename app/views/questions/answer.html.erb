@@ -1,0 +1,11 @@
+<h1 class="m-3">Stupid Coaching</h1>
+<div class="border-start border-5 p-3 m-3">
+<p><%= params[:answer] %></p>
+<p><strong>-You</strong></p>
+</div>
+<div class="coach-answer border-start border-5 p-3 m-3">
+  <p ><%= @coach_answer %></p>
+  <p ><strong>-Coach</strong></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, :class => 'm-3' %>
